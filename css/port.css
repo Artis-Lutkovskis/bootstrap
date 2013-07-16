@@ -1,0 +1,119 @@
+body {
+        
+        background: url('../img/background.jpg');
+        color: #FFFFCC;
+        background-position-y: -100px;
+        
+      }
+
+      .container {
+          margin: 0 auto;
+        max-width: 999px;
+        
+      }
+     
+     
+
+      
+    .navbar-a ul
+
+    {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        background-color: transparent;
+     }
+   
+    .navbar-a li
+    {
+        float:left;
+        background: rgba(204, 204, 154, 0.4);
+        border-left:1px solid white;
+
+    }
+    
+    .navbar-a a:link,a:visited 
+    {
+        display:block;
+        width:120px;
+        font-weight:bold;
+        color:#FFFFFF;
+        
+        text-align:center;
+        padding-left: 57px;
+        padding-right: 57px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-decoration:none;
+        text-shadow:3px 0px 6px #555555;
+        text-transform:uppercase;
+       
+        
+}
+    .navbar-a a:hover,a:active
+    {
+    background-color:black;
+    }
+    
+    .navbar-a li:first-child
+    {
+       border-left: none;
+    }
+  
+  
+      
+      
+      .main
+      {
+       
+        text-shadow:3px 0px 6px #555555;
+      }
+      
+      .main p
+      {
+           
+          
+          font-size: 38px;
+          font-weight: bold;
+          color: #FFFFCC;
+          line-height:100%;
+          
+          
+      }
+
+
+    .footer
+      {
+         text-align: right;
+         margin-top: 10px;
+         margin-right: 20px;
+      }
+
+      .main-box{
+          
+          border: #330033 solid ;
+          
+          background-color: #330033;
+          margin-right:  1px;
+          
+          
+      }
+      .picbox{
+          display: inline-table;
+      }
+      
+      .picbox img{
+          
+          width: 311px;
+          height: 233px;
+          
+         
+      }
+      
+      .fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+                .fancybox{
+                    
+                }
